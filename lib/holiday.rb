@@ -106,7 +106,7 @@ def all_supplies_in_holidays(holiday_hash)
       event = event.to_s.split("_") do |word| word.capitalize!
         
       end
-      puts "  " + event.join(" ") + ": " + items.join(", ")
+      puts "  " + event. + ": " + items.join(", ")
     
     end
   end
