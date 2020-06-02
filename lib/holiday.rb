@@ -56,10 +56,11 @@ def add_new_holiday_with_supplies(holiday_hash, season, holiday_name, supply_arr
       holiday.each do |attribute, data|
         holiday_hash[:fall][:columbus_day] = supply_array
       end
-    if season == :winter
+    else season == :winter
       holiday.each do |attribute, data|
         holiday_hash[:winter][:valentines_day] = supply_array
       end
+    
     end
   end
   
