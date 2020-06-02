@@ -50,11 +50,10 @@ end
 
 def add_new_holiday_with_supplies(holiday_hash, season, holiday_name, supply_array)
    
-  puts holiday_hash
-  puts season
-  puts holiday_name
-  puts supply_array
- 
+  holiday_hash[season][holiday_name] = supply_array
+  
+  holiday_hash
+
 end 
 # describe "#add_new_holiday_with_supplies" do
 #     it "modifies the original hash by adding supplies of a new holiday to a season" do
