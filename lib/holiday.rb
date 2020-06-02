@@ -49,10 +49,33 @@ def add_supply_to_memorial_day(holiday_hash, supply)
 end
 
 def add_new_holiday_with_supplies(holiday_hash, season, holiday_name, supply_array)
- 
-  
+   
+  puts holiday_hash
+  puts season
+  puts holiday_name
+  puts supply_array
  
 end 
+# describe "#add_new_holiday_with_supplies" do
+#     it "modifies the original hash by adding supplies of a new holiday to a season" do
+#       expect(holiday_supplies[:fall].keys).not_to include(:columbus_day)
+
+#       columbus_day_supplies = ["Flags", "Parade Floats", "Italian Food"]
+
+#       add_new_holiday_with_supplies(holiday_supplies, :fall, :columbus_day, columbus_day_supplies)
+
+#       expect(holiday_supplies[:fall].keys).to include(:columbus_day)
+#       expect(holiday_supplies[:fall][:columbus_day]).to match_array(columbus_day_supplies)
+
+#       expect(holiday_supplies[:winter].keys).not_to include(:valentines_day)
+
+#       valentines_day_supplies = ["Cupid Cut-Out", "Candy Hearts"]
+#       add_new_holiday_with_supplies(holiday_supplies, :winter, :valentines_day, valentines_day_supplies)
+
+#       expect(holiday_supplies[:winter].keys).to include(:valentines_day)
+#       expect(holiday_supplies[:winter][:valentines_day]).to match_array(valentines_day_supplies)
+#     end
+#   end
   # code here
   # remember to return the updated hash
             # holiday_hash.each do |season, holiday|
