@@ -39,7 +39,7 @@ def add_supply_to_memorial_day(holiday_hash, supply)
   holiday_hash.each do |season, holiday|
     if season == :spring
       holiday.each do |attribute, data|
-        holiday_hash[:spring][:Columbus_day] = supply_array
+        holiday_hash[:spring][:Columbus_day] = supply
       end
     end
   end
@@ -51,7 +51,7 @@ end
 def add_new_holiday_with_supplies(holiday_hash, season, holiday_name, supply_array)
   # code here
   # remember to return the updated hash
-  holiday_supplies[:fall][:Culumbus_day] = []
+  holiday_supplies[:fall][:Culumbus_day] = supply
   
       
 
