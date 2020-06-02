@@ -49,22 +49,26 @@ def add_supply_to_memorial_day(holiday_hash, supply)
 end
 
 def add_new_holiday_with_supplies(holiday_hash, season, holiday_name, supply_array)
+ 
+  
+ 
+end 
   # code here
   # remember to return the updated hash
-  holiday_hash.each do |season, holiday|
-    if season == :spring
-      holiday.each do |attribute, data|
-        holiday_hash[:fall][:columbus_day] = supply_array
-      end
-    else season == :winter
-      holiday.each do |attribute, data|
-        holiday_hash[:winter][:valentines_day] = supply_array
-      end
-    
-    end
-  end
-  
-end
+            # holiday_hash.each do |season, holiday|
+            #   if season == :spring
+            #     holiday.each do |attribute, data|
+            #       holiday_hash[:fall][:columbus_day] = supply_array
+            #     end
+            #   else season == :winter
+            #     holiday.each do |attribute, data|
+            #       holiday_hash[:winter][:valentines_day] = supply_array
+            #     end
+              
+            #   end
+            # end
+            
+
 
 def all_winter_holiday_supplies(holiday_hash)
   # return an array of all of the supplies that are used in the winter season
